@@ -1,15 +1,15 @@
 import "./HeroImageStyles.css";
 import React from 'react'
-import intro from "../Assets/211.jpg"
+import intro from "../Assets/intro-bg.jpg"
 import { Link } from "react-router-dom";
 const Heroimage = () => {
   return ( <div className="hero">
     <div className="mask">
-      <img className="211" src={intro}
+      <img className="intro-img" src={intro}
       alt="intro"></img>
   </div>
   <div className="content">
-    <p>Hi , I'M A WEBDEVELOPER</p>
+    <p>Hi , I'M A WEB DEVELOPER</p>
     <h1> Full Stack Developer </h1>
     <div>
       <Link to ="/project"
